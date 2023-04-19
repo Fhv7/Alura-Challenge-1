@@ -7,7 +7,7 @@ function App() {
   // TODO: Create a function and a stateful variable to handle the input from the Textarea component
   // TODO: Create a function that prints to console the encrypted or decrypted message the user input
   return (
-      <Box mx={32} my={16}>
+      <Box ms={32} me={{xl: "8rem", base: "3rem"}} my={16}>
         <Grid
             templateRows='auto 1fr auto'
             templateColumns='repeat(6, 1fr)'
@@ -21,10 +21,10 @@ function App() {
             <GridItem rowSpan={3} colSpan={2}>
               <Card minH="80vh" variant="elevated">
                 <VStack m="auto">
-                  <Text>
+                  <Text fontSize="3xl">
                     Ningún Mensaje fue encontrado
                   </Text>
-                  <Text color="#CCCCCC">
+                  <Text color="#BCBCBC">
                     Ingresa el texto que desees encriptar o desencriptar
                   </Text>
                 </VStack>
@@ -33,7 +33,7 @@ function App() {
             {/* Text Input */}
             <GridItem colSpan={4} ms={10} me={32} my={10} >
               <Textarea 
-                placeholder="Ingresa el texto aqui!" 
+                placeholder="Ingresa el texto aquí!" 
                 variant="unstyled" 
                 resize="none"
                 fontSize="3xl"
