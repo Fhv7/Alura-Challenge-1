@@ -47,13 +47,13 @@ function App() {
   return (
       <Box>
           <Grid
-              templateColumns={{lg: 'repeat(6, 1fr)'}}
-              ms={{md: 32, base: 14}}
+              templateColumns={{lg: 'repeat(3, 1fr)'}}
+              ms={{md: 48, base: 14}}
               me={{xl: 32, md: 32, base: 14}}
               my={16}
           >
               {/* Heading, Input and Buttons */}
-              <GridItem colSpan={{xl: 4, base: 6}} me={{xl: 48}}>
+              <GridItem colSpan={{xl: 2, base: 3}} me={{xl: 48}}>
                   <InputComponent 
                       onChange={handleInputChange}
                       onEncrypt={encrypt}
@@ -63,8 +63,8 @@ function App() {
               </GridItem>
 
               {/* Encryption / Decryption result */}
-              <GridItem justifyContent="center" colSpan={{xl: 2, base: 6}} mt={{xl: 0, base: 12}}>
-                  <OutputComponent value={outputValue}/>
+              <GridItem justifyContent="center" colSpan={{xl: 1, base: 3}} mt={{xl: 0, base: 12}}>
+                  <OutputComponent outputValue={outputValue} setInputValue={setInput} setOutputValue={setOutputValue}/>
               </GridItem>
           </Grid>
       </Box>
