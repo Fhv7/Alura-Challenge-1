@@ -6,8 +6,8 @@ Se esperaba que la aplicación fuese desarrollada utilizando HTML, CSS Y Javascr
 
 La aplicación consiste en un encriptador y desencriptador de texto, que sigue las siguientes reglas de encriptación:
 
-Las "a" son transformadas en "ai"
-Las "e" son transformadas en "enter"
-Las "i" son transformadas en "imes"
-Las "o" son transformadas en "ober"
-Las "u" son transformadas en "ufat"
+- Las "a" son transformadas en "ai"
+- Las "e" son transformadas en "enter"
+- Las "i" son transformadas en "imes"
+- Las "o" son transformadas en "ober"
+- Las "u" son transformadas en "ufat"
