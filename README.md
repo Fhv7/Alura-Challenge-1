@@ -11,3 +11,7 @@ La aplicación consiste en un encriptador y desencriptador de texto, que sigue l
 - Las "i" son transformadas en "imes"
 - Las "o" son transformadas en "ober"
 - Las "u" son transformadas en "ufat"
+
+### Para probar la aplicación puedes ingresar a:
+
+https://fhv7.github.io/Alura-Challenge-1-Encrypter/
