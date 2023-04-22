@@ -1,7 +1,7 @@
 {
   "name": "encrypter",
   "private": true,
-  "homepage": "https://Fhv7.github.io/Alura-Challenge-1-Encrypter",
+  "homepage": "https://fhv7.github.io/ChallengeONE-Alura-Encrypter",
   "version": "0.1.0",
   "type": "module",
   "scripts": {
