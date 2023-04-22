@@ -4,7 +4,7 @@ Este repositorio corresponde a mi entrega del Challenge de la formación "Princi
 
 Se esperaba que la aplicación fuese desarrollada utilizando HTML, CSS Y Javascript. Sin embargo, dado que ya me encontraba familiarizado con estas tecnologías, decidí aventurarme a implementarla con React y Chakra UI.
 
-La aplicación consiste en un encriptador y desencriptador de texto, que sigue las siguientes reglas de encriptación:
+La aplicación consiste en un encriptador y desencriptador de texto, que sigue las siguientes reglas:
 
 - Las "a" son transformadas en "ai"
 - Las "e" son transformadas en "enter"
