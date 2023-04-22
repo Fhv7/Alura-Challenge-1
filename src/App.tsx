@@ -31,7 +31,6 @@ function App() {
                               [key as keyof typeof encryptionKeys]
                             )
       }
-      console.log(encryptedValue)
       setOutputValue(encryptedValue)
       
   }
@@ -41,7 +40,6 @@ function App() {
       for (const key in encryptionKeys) {
         decryptedValue = decryptedValue.split(encryptionKeys[key as keyof typeof encryptionKeys]).join(key)
       }
-      console.log(decryptedValue) 
       setOutputValue(decryptedValue)
   }
   return (

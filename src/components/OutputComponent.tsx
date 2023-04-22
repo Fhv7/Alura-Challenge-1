@@ -22,7 +22,7 @@ function OutputComponent(props: props) {
             >
                 {props.outputValue != "" ? 
                 <>
-                    <Box h={{xl: "60vh"}} overflow="auto">    
+                    <Box height={{xl: "60vh", md:"45vh" ,base: "40vh"}} overflow="auto">    
                         <Text fontSize="3xl">{props.outputValue}</Text> 
                     </Box>
                         <Button 

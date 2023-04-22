@@ -21,12 +21,13 @@ function InputComponent (props: props) {
                 <VStack>
                 <Textarea 
                     ms={{xl: 12, base: 0}}
+                    mb={{xl: 12}}
                     value={props.input}
                     placeholder="Ingresa el texto aquí." 
                     variant="unstyled"
                     resize="none"
                     fontSize="3xl"
-                    height={{xl: "58vh", md:"45vh" ,base: "40vh"}}
+                    height={{xl: "55vh", md:"45vh" ,base: "40vh"}}
                     onChange={props.onChange}
                 />
                 <SimpleGrid columns={{lg: 2, base: 1}} spacing={{xl: 20, lg: 14, base: 6}}>
