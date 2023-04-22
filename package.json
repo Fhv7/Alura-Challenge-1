@@ -1,5 +1,5 @@
 {
-  "name": "encrypte",
+  "name": "encrypter",
   "private": true,
   "homepage": "https://Fhv7.github.io/Alura-Challenge-1-Encrypter",
   "version": "0.1.0",
@@ -9,7 +9,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.18",

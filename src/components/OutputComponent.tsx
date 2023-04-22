@@ -72,7 +72,7 @@ function OutputComponent(props: props) {
                 </>
                 :
                     <VStack my="auto" pt="2rem" pb="2.5rem">
-                    <Image src="src/assets/nf2.jpg" alt="img" mb={10} display={{xl: "block",base: "none"}}/>
+                    <Image src="./nf2.jpg" alt="img" mb={10} display={{xl: "block",base: "none"}}/>
                     <Text fontSize={{xl: "3xl", base: "2xl"}} fontWeight="600">
                         Ningún Mensaje fue encontrado.
                     </Text>
