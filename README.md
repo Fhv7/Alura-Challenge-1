@@ -14,4 +14,4 @@ La aplicación consiste en un encriptador y desencriptador de texto, que sigue l
 
 ### Para probar la aplicación puedes ingresar a:
 
-https://fhv7.github.io/Alura-Challenge-1-Encrypter/
+https://fhv7.github.io/ChallengeONE-Alura-Encrypter/
